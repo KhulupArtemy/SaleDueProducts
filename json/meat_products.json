@@ -1,0 +1,23 @@
+{
+    "N4" : {
+        "name" : "Окорок",
+        "id" : 4,
+        "due_date" : "08.10.2021",
+        "cost" : 2.20,
+        "image" : "images/meat1.png"
+    },
+    "N5" : {
+        "name" : "Куриная грудка",
+        "id" : 5,
+        "due_date" : "14.03.2022",
+        "cost" : 3.01,
+        "image" : "images/meat2.png"
+    },
+    "N6" : {
+        "name" : "Куриная ножка",
+        "id" : 6,
+        "due_date" : "28.04.2022",
+        "cost" : 2.33,
+        "image" : "images/meat3.png"
+    }
+}

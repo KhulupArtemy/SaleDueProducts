@@ -1,0 +1,128 @@
+{
+    "N1" : {
+        "name" : "Батон",
+        "id" : 1,
+        "due_date" : "23.04.2022",
+        "cost" : 0.32,
+        "image" : "images/bread1.png"
+    },
+    "N2" : {
+        "name" : "Хлеб",
+        "id" : 2,
+        "due_date" : "15.05.2022",
+        "cost" : 0.41,
+        "image" : "images/bread2.png"
+    },
+    "N3" : {
+        "name" : "Хлеб кирпичик",
+        "id" : 3,
+        "due_date" : "01.01.2022",
+        "cost" : 0.93,
+        "image" : "images/bread3.png"
+    },
+    "N4" : {
+        "name" : "Окорок",
+        "id" : 4,
+        "due_date" : "08.10.2021",
+        "cost" : 2.20,
+        "image" : "images/meat1.png"
+    },
+    "N5" : {
+        "name" : "Куриная грудка",
+        "id" : 5,
+        "due_date" : "14.03.2022",
+        "cost" : 3.01,
+        "image" : "images/meat2.png"
+    },
+    "N6" : {
+        "name" : "Куриная ножка",
+        "id" : 6,
+        "due_date" : "28.04.2022",
+        "cost" : 2.33,
+        "image" : "images/meat3.png"
+    },
+    "N7" : {
+        "name" : "Молоко",
+        "id" : 7,
+        "due_date" : "10.05.2022",
+        "cost" : 0.90,
+        "image" : "images/dairy1.png"
+    },
+    "N8" : {
+        "name" : "Сыр",
+        "id" : 8,
+        "due_date" : "11.08.2020",
+        "cost" : 10.50,
+        "image" : "images/dairy2.png"
+    },
+    "N9" : {
+        "name" : "Сметана",
+        "id" : 9,
+        "due_date" : "02.05.2022",
+        "cost" : 0.72,
+        "image" : "images/dairy3.png"
+    },
+    "N10" : {
+        "name" : "Дорадо",
+        "id" : 10,
+        "due_date" : "05.02.2022",
+        "cost" : 1.40,
+        "image" : "images/fish1.png"
+    },
+    "N11" : {
+        "name" : "Желтый полосатик",
+        "id" : 11,
+        "due_date" : "19.04.2022",
+        "cost" : 1.70,
+        "image" : "images/fish2.png"
+    },
+    "N12" : {
+        "name" : "Селедка",
+        "id" : 12,
+        "due_date" : "26.11.2021",
+        "cost" : 0.72,
+        "image" : "images/fish3.png"
+    },
+    "N13" : {
+        "name" : "Куриные яйца",
+        "id" : 13,
+        "due_date" : "22.02.2022",
+        "cost" : 1.00,
+        "image" : "images/eggs1.png"
+    },
+    "N14" : {
+        "name" : "Перепилиные яйца",
+        "id" : 14,
+        "due_date" : "13.02.2022",
+        "cost" : 1.20,
+        "image" : "images/eggs2.png"
+    },
+    "N15" : {
+        "name" : "Гусиные яйца",
+        "id" : 15,
+        "due_date" : "17.08.2021",
+        "cost" : 0.60,
+        "image" : "images/eggs3.png"
+    },
+    "N16" : {
+        "name" : "Мандарин",
+        "id" : 16,
+        "due_date" : "22.02.2022",
+        "cost" : 0.15,
+        "image" : "images/fruit1.png"
+    },
+    "N17" : {
+        "name" : "Банан",
+        "id" : 17,
+        "due_date" : "13.02.2022",
+        "cost" : 0.20,
+        "image" : "images/fruit2.png"
+    },
+    "N18" : {
+        "name" : "Яблоко",
+        "id" : 18,
+        "due_date" : "18.01.2022",
+        "cost" : 0.08,
+        "image" : "images/fruit3.png"
+    }
+} 

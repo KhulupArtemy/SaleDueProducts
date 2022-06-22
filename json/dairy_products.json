@@ -1,0 +1,23 @@
+{
+    "N7" : {
+        "name" : "Молоко",
+        "id" : 7,
+        "due_date" : "10.05.2022",
+        "cost" : 0.90,
+        "image" : "images/dairy1.png"
+    },
+    "N8" : {
+        "name" : "Сыр",
+        "id" : 8,
+        "due_date" : "11.08.2020",
+        "cost" : 10.50,
+        "image" : "images/dairy2.png"
+    },
+    "N9" : {
+        "name" : "Сметана",
+        "id" : 9,
+        "due_date" : "02.05.2022",
+        "cost" : 0.72,
+        "image" : "images/dairy3.png"
+    }
+}

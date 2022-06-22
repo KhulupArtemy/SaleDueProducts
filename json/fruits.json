@@ -1,0 +1,23 @@
+{
+    "N16" : {
+        "name" : "Мандарин",
+        "id" : 16,
+        "due_date" : "22.02.2022",
+        "cost" : 0.15,
+        "image" : "images/fruit1.png"
+    },
+    "N17" : {
+        "name" : "Банан",
+        "id" : 17,
+        "due_date" : "13.02.2022",
+        "cost" : 0.20,
+        "image" : "images/fruit2.png"
+    },
+    "N18" : {
+        "name" : "Яблоко",
+        "id" : 18,
+        "due_date" : "18.01.2022",
+        "cost" : 0.08,
+        "image" : "images/fruit3.png"
+    }
+}

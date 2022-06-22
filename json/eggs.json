@@ -1,0 +1,23 @@
+{
+    "N13" : {
+        "name" : "Куриные яйца",
+        "id" : 13,
+        "due_date" : "22.02.2022",
+        "cost" : 1.00,
+        "image" : "images/eggs1.png"
+    },
+    "N14" : {
+        "name" : "Перепилиные яйца",
+        "id" : 14,
+        "due_date" : "13.02.2022",
+        "cost" : 1.20,
+        "image" : "images/eggs2.png"
+    },
+    "N15" : {
+        "name" : "Гусиные яйца",
+        "id" : 15,
+        "due_date" : "17.08.2021",
+        "cost" : 0.60,
+        "image" : "images/eggs3.png"
+    }
+}

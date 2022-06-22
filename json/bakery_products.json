@@ -1,0 +1,23 @@
+{
+    "N1" : {
+        "name" : "Батон",
+        "id" : 1,
+        "due_date" : "23.04.2022",
+        "cost" : 0.32,
+        "image" : "images/bread1.png"
+    },
+    "N2" : {
+        "name" : "Хлеб",
+        "id" : 2,
+        "due_date" : "15.05.2022",
+        "cost" : 0.41,
+        "image" : "images/bread2.png"
+    },
+    "N3" : {
+        "name" : "Хлеб кирпичик",
+        "id" : 3,
+        "due_date" : "01.01.2022",
+        "cost" : 0.93,
+        "image" : "images/bread3.png"
+    }
+} 

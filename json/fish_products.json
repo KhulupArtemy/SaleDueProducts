@@ -1,0 +1,23 @@
+{
+    "N10" : {
+        "name" : "Дорадо",
+        "id" : 10,
+        "due_date" : "05.02.2022",
+        "cost" : 1.40,
+        "image" : "images/fish1.png"
+    },
+    "N11" : {
+        "name" : "Желтый полосатик",
+        "id" : 11,
+        "due_date" : "19.04.2022",
+        "cost" : 1.70,
+        "image" : "images/fish2.png"
+    },
+    "N12" : {
+        "name" : "Селедка",
+        "id" : 12,
+        "due_date" : "26.11.2021",
+        "cost" : 0.72,
+        "image" : "images/fish3.png"
+    }
+}

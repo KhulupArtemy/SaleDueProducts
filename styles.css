@@ -1,0 +1,464 @@
+ body { 
+	margin: 0px;
+    height: 100%;
+    background: #5ab5fa;
+ }
+
+ .block1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+	height: 20%;
+ }
+
+ .block1 img{
+    width: 10vw;
+    height: 12vw;
+    padding: 2%;
+ }
+
+ .name-shadow-polka-dot {
+    padding-top: 2%;
+    
+    font-family: 'Rubik One', sans-serif;
+    font-size: 3.5vw;
+    text-transform: uppercase;
+    text-shadow: -5px -5px 0px #c71616;
+    background: radial-gradient(#ffffff 1px, transparent 1px);
+    background-size: 4px 4px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: table;
+    margin: 0px auto;
+}
+
+ .block2 {
+    background-image: url("block2.png");
+    background-size: cover;
+    position: relative;
+    display: block;
+    width: 100%;
+    /*height: 13.3vw;*/
+ }
+
+ .Text1 {
+    padding-top: 3%;
+    margin: 1vw;
+	font-size: 2vw;
+	font-family: "Ravie";
+	font-weight: 1000;
+	color: #c71616;
+	text-align: center;
+    text-shadow: 0.03846vw 0 0.03846vw rgb(255, 255, 255), 0 0.03846vw 0.03846vw rgb(255, 255, 255), -0.03846vw 0 0.03846vw rgb(255, 255, 255), 0 -0.03846vw 0.03846vw rgb(255, 255, 255);
+    text-transform: uppercase;
+ }
+
+ .Text2 {
+    padding-bottom: 3%;
+	font-size: 1.8vw;
+	font-family: "Ravie";
+	color: #c71616;
+	text-align: center;
+    text-shadow: 0.03846vw 0 0.03846vw rgb(255, 255, 255), 0 0.03846vw 0.03846vw rgb(255, 255, 255), -0.03846vw 0 0.03846vw rgb(255, 255, 255), 0 -0.03846vw 0.03846vw rgb(255, 255, 255);
+ }
+
+ .block3 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 110vw;
+ }
+
+ .single-goods {
+    float: left;
+    margin: 2% 5%;
+}
+
+ .single-goods button{
+    /*width: 240px;*/
+    width: 13.3vw;
+    /*height: 400px;*/
+    /*height: 22.2vw;*/
+    background: #ffffff;
+    border: 0.03846vw solid;
+}
+
+ .single-goods button:hover{
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+ .single-goods img{
+    width: 8.9vw;
+    height: 8.9vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .single-goods p{
+    margin-top: 2vw;
+    font-size: 0.6vw;
+    font-family: "Comic CAT";
+    color: #c71616;
+}
+
+ .single-goods h4{
+    font-size: 0.7vw;
+    font-family: "Comic CAT";
+    color: #c71616;
+}
+ .open-popup{
+    margin-left: 5%;
+    width: 14vw;
+    height: 4vw;
+    background-color: #ffffff;
+    border: 0.03846vw solid black;
+    cursor: pointer;
+
+    font-size: 2vw;
+    font-family: "Comic CAT";
+    color: #c71616;
+
+    margin-bottom: 5%;
+ }
+
+ .popup-bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0,0,0,0.8); 
+    display: none;
+    z-index: 9999;
+}
+
+ .popup {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    width: 23.077vw;
+    background: #ffffff; 
+    padding: 0.77vw;
+    transform: translate(-50%,-50%);
+    padding-top: 2.3077vw;
+}
+
+ .close-popup {
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    top: 0.5vw;
+    right: 0.5vw;
+    cursor: pointer;
+}
+
+.cart-btn{
+    font-size: 0.7vw;
+    margin: 0%;
+    padding: 0%;
+    width: 60%;
+    height: 2vw;
+}
+
+.clear-cart{
+    font-size: 0.7vw;
+    margin: 0%;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin-left: 20%;
+    margin-bottom: 5%;
+    padding: 0%;
+    width: 60%;
+    height: 2vw;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup form input {
+    width: 60%;
+    font-size: 0.77vw;
+    margin-bottom: 1.1538vw;
+    height: 1.538vw;
+    text-align: center;
+
+    margin-top: 10px; 
+	margin-left: auto;
+    margin-right: auto;
+    height: 1.54vw;
+    /*padding-left: 10px;*/
+    border-radius: 0.9vw/0.9vw;
+    border: none;
+    font-size: 0.7vw;
+    box-shadow: 0.077vw 0.077vw 0.1923077vw rgba(0,0,0,0.82);
+}
+/*
+#goods input{
+    height: 3.538vw;
+}
+*/
+
+.popup form input[type="submit"] {
+    background: #000000;
+    color: #ffffff;
+}
+
+ .no-scroll {
+    overflow-y: hidden;
+}
+
+ .block4 {
+    background-image: url("block3.png");
+    background-size: cover;
+
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 30vw;
+ }
+
+ .Text3 {
+	font-size: 2.4vw;
+	font-family: "Comic CAT";
+	color: #c71616;
+	text-align: center;
+    padding-top: 5%;
+ }
+/*
+ #carousel  {
+    touch-action: none;
+    display: flex;
+    height: 1000px;
+    height: 15.4vw;
+    perspective: 1000px;
+    perspective: 38.46vw;
+    transform-style: preserve-3d;
+}
+
+ #drag-container,
+ #spin-container {
+    position: relative;
+    display: flex;
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg);
+}
+ #drag-container a {
+    transform-style: preserve-3d;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 8.3vw;
+    height: 11.3vw;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.1);
+    border: 8px solid #BFE2FF;
+}
+ #drag-container img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(50%) contrast(0.8);
+    transition: filter 0.3s;
+}     
+ #drag-container a:hover img{
+    filter: grayscale(0) contrast(1);
+}          
+ #drag-container p {
+    line-height: 1;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;      
+    font-family: Serif;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateX(90deg);
+    color: #337AB7;
+    font-family: Verdana, sans-serif; 
+}
+ #ground {
+    width: 900px;
+    width: 34.6vw;
+    height: 900px;
+    height: 34.6vw;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateX(90deg);
+}
+ @keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+ @keyframes spinRevert {
+    from {
+        transform: rotateY(360deg);
+    }
+    to {
+        transform: rotateY(0deg);
+    }
+}
+*/
+
+#carousel  {
+    touch-action: none;
+    display: flex;
+    height: 15.4vw;
+    perspective: 38.46vw;
+    transform-style: preserve-3d;
+}
+#drag-container,
+#spin-container {
+    position: relative;
+    display: flex;
+    margin: auto;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg);
+}
+#drag-container a {
+    transform-style: preserve-3d;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    /*box-shadow: 0 4px 8px rgba(0,0,0,0.2), 0 10px 16px rgba(0,0,0,0.1);*/
+    border: 1px solid #000000;
+}
+#drag-container img {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(50%) contrast(0.8);
+    transition: filter 0.3s;
+}     
+#drag-container a:hover img{
+    filter: grayscale(0) contrast(1);
+}          
+#drag-container p {
+    line-height: 1;
+    font-size: 1,923076vw;
+    font-weight: bold;
+    text-align: center;      
+    font-family: Serif;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateX(90deg);
+    color: #000000;
+    font-family: Verdana, sans-serif; 
+}
+#ground {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotateX(90deg);
+}
+@keyframes spin {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+@keyframes spinRevert {
+    from {
+        transform: rotateY(360deg);
+    }
+    to {
+        transform: rotateY(0deg);
+    }
+}  
+
+ .block5 {
+    background-image: url("block4.jpeg");
+    background-size: cover;
+
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 20vw;
+    margin: auto;
+}
+
+.Text4 {
+	font-size: 2.4vw;
+	font-family: "Comic CAT";
+	color: #c71616;
+	text-align: center;
+    padding-top: 2%;
+    margin: auto;
+ }
+
+.slider {
+    position: relative;
+    height: 11.4vw;
+    width: 40%;
+    margin: 20px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2); 
+    overflow: hidden;
+}
+.slider-slides {
+    position: relative;
+    height: 100%;
+    transition: transform 0.3s cubic-bezier(0.51, 0.92, 0.24, 1);
+    will-change: transform;
+}
+.slider-slide {
+    float: left;
+    height: 100%;
+    background-position: 50% 50%;
+    background-size: cover;    
+}
+.slider-dots {
+    display: flex;
+    position: absolute;
+    bottom: 0.8vw;
+    left: 20px;
+    width: 35vw;
+}
+.slider-dot, 
+.slider-indicator {
+    display: block;
+    margin: 0 5px;
+    height: 0.8vw;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    cursor: pointer;
+}
+.slider-indicator {
+    position: absolute;
+    background: rgb(199, 22, 22);
+    width: auto;
+    box-shadow: 0 4px 12px rgba(184, 34, 34, 0.2), 0 16px 20px rgba(0,0,0,0.2);   
+}
+.slider-indicator-left {
+    transition: left 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+.slider-indicator-right {
+    transition: left 0.3s 0.1s cubic-bezier(0.51, 0.92, 0.24, 1.15), right 0.3s cubic-bezier(0.51, 0.92, 0.24, 1.15);
+}
+
+.block6 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 5vw;
+}
+
+.block6 a{
+    font-size: 1.61538vw;
+	font-family: "Comic CAT";
+    color: #c71616; 
+    margin-left: 2%;
+}
